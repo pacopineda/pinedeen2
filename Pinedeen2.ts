@@ -34,7 +34,7 @@ namespace Pinedeen {
     //% direction.fieldEditor="gridpicker" direction.fieldOptions.columns=2
     export function motorRun(index: Motors, direction: Dir, speed: number): void {
         let spin = (speed * 90) / 255 + 90;
-        let spin2 = 90 - (speed * 90) / 255;
+        let spin2 = 85 - (speed * 90) / 255 ;
         if (index == 0) {
             pins.servoWritePin(AnalogPin.P0, spin);
         }
