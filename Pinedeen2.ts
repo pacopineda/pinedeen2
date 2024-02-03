@@ -8,18 +8,18 @@ namespace Pinedeen {
     }
 
     export enum Motors {
-        //% blockId="left motor" block="left"
+        //% blockId="left motor" block="Izquierdo"
         PM1 = 0,
-        //% blockId="right motor" block="right"
+        //% blockId="right motor" block="Derecho"
         PM2 = 1,
-        //% blockId="all motor" block="all"
+        //% blockId="all motor" block="Ambos"
         PAll = 2
     }
 
     export enum Dir {
-        //% blockId="CW" block="Forward"
+        //% blockId="CW" block="Adelante"
         CW = 0x0,
-        //% blockId="CCW" block="Backward"
+        //% blockId="CCW" block="Atras"
         CCW = 0x1
     }
 
